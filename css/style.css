@@ -1,7 +1,24 @@
-body {
+html {
+	
+} 
+
+ body {
 	margin: 0;
-}
-header {
-	background-color: #a4a6aa;
-	text-align: center;
+	padding: 0;
+	background-color: lavenderblush; 
+	background: url('https://source.unsplash.com/M0ffMsZEj3Y') no-repeat center center fixed;
+	
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover; 
+	display: block;
+	
+	
+} 
+
+.container {
+	
+	background-color: aquamarine;
+	margin-top: 100px;
 }
