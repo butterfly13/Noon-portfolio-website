@@ -1,24 +1,68 @@
-html {
-	
-} 
+
 
  body {
 	margin: 0;
 	padding: 0;
+	background-color: #eaecef;
+} 
+
+.container-fluid {
+	background-color: antiquewhite;
+	margin-top: 56px;
+	margin-bottom: 40px;
 	background-color: lavenderblush; 
 	background: url('https://source.unsplash.com/M0ffMsZEj3Y') no-repeat center center fixed;
+	height: 400px;
 	
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
     -o-background-size: cover;
 	background-size: cover; 
 	display: block;
-	
-	
-} 
 
-.container {
+
+}
+
+.container-fluid h1, .container-fluid p {
+	text-align: center;
+	position: relative;
+	top: 170px;
+	color: antiquewhite;
+}
+
+.portfolio {
+	text-align: center;
+	/* margin-top: 30px; */
+	margin-bottom: 30px;
+}
+
+.portfolio-image {
+	margin-bottom: 15px;
+}
+img {
+	height: 200px;
+}
+
+h4.contact {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.about-me{
+	margin-bottom: 40px;
+	background: url('../images/alain-d-alche-748337-unsplash.jpg') no-repeat center center fixed;
+	height: 400px;
 	
-	background-color: aquamarine;
-	margin-top: 100px;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover; 
+	display: block;
+}
+
+footer {
+	background-color: blanchedalmond;
+	margin-bottom: 0;
+	height: 100px;
 }
