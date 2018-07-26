@@ -30,6 +30,37 @@
 	color: antiquewhite;
 }
 
+.skills {
+	text-align: center
+	/* border: 1px solid */
+}
+
+ul {
+	padding-left: 0;
+}
+
+.skill-section {
+	border: 1px solid gainsboro;
+	margin-top: 10px;
+	/* background-color: aquamarine; */
+}
+
+.skill-section h5 {
+	padding-top: 15px;
+}
+
+.skill-section i {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+
+
+.skills ul li {
+	list-style-type: none;
+	
+}
+
 .portfolio {
 	text-align: center;
 	/* margin-top: 30px; */
@@ -49,7 +80,7 @@ h4.contact {
 	padding-bottom: 15px;
 }
 
-.about-me{
+.portfolio-section{
 	margin-bottom: 40px;
 	background: url('../images/alain-d-alche-748337-unsplash.jpg') no-repeat center center fixed;
 	height: 400px;
@@ -61,8 +92,37 @@ h4.contact {
 	display: block;
 }
 
+.more-button {
+	border-color: #17a2b8;
+}
+
+/* for from spree */
+.hpot {
+	display: none;
+  }
+
+footer i {
+	
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+footer p {
+	padding-bottom: 10px;
+	margin-bottom: 0;
+}
+
 footer {
 	background-color: blanchedalmond;
-	margin-bottom: 0;
-	height: 100px;
+	margin-top: 30px;
+	text-align: center;
 }
+
+footer a {
+	color: whitesmoke;
+}
+
+
