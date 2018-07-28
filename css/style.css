@@ -70,7 +70,7 @@ ul {
 .portfolio-image {
 	margin-bottom: 15px;
 }
-img {
+.card img {
 	height: 200px;
 }
 
@@ -94,6 +94,23 @@ h4.contact {
 
 .more-button {
 	border-color: #17a2b8;
+	margin-top: 30px;
+}
+
+
+.modal-body p {
+	padding-top: 20px;
+}
+
+.modal-body a {
+	padding-left: 10px;
+	list-style-type: none;
+	color: #17a2b8;
+}
+
+.modal-body a:hover {
+	text-decoration: none;
+	font-size: 15px;
 }
 
 /* for from spree */
