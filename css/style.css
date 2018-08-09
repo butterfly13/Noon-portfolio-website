@@ -8,6 +8,10 @@
 	font-size: 20px;
 } 
 
+h1{
+	font-size: 50px;
+}
+
 .navbar-brand {
 	font-size: 25px;
 	font-weight: 700;
@@ -154,3 +158,21 @@ footer a {
 }
 
 
+.resume-icon {
+	font-stretch: expanded;
+	font-size: 25px;
+	margin-right: 15px;
+	font-family: 'Heebo', sans-serif;
+
+	
+}
+
+a:hover{
+	text-decoration: none;
+	color:#117a8b;
+
+}
+
+a.resume-icon:hover{
+	color: #117a8b;
+}
