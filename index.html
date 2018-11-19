@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Nida Portfolio</title>
+	<title>Chanida Portfolio</title>
 	<!-- goole fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Heebo:900" rel="stylesheet">
@@ -18,25 +18,22 @@
 	
    
   </head>
-  <body>
-		<nav class="nav navbar navbar-expand-sm fixed-top navbar-light bg-secondary " >
+  <body data-spy="scroll" data-target="#navbar-scroll" data-offset="100">
+		<nav id="navbar-scroll" class="nav navbar navbar-expand-sm fixed-top navbar-light bg-secondary " >
 			<a class="navbar-brand" href="#">NC</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<!-- <div class="container">
-					<a class="navbar-brand text-light" href="#">NC</a>
-			</div> -->
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-					<ul class="navbar-nav ml-auto">
+					<ul class="nav nav-pills navbar-nav ml-auto">
 					  <li class="nav-item">
-						<a class="nav-link" href="#">About</a>
+						<a class="nav-link active" href="#about">About</a>
 					  </li>
 					  <li class="nav-item">
-						<a class="nav-link" href="#">Work</a>
+						<a class="nav-link" href="#work">Work</a>
 					  </li>
 					  <li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="#contact">Contact</a>
 					  </li>
 					</ul>
 					
@@ -44,18 +41,18 @@
 		
 			
 		</nav>
-
-				
-				<div class="container-fluid"  >
+			<!-- <div> -->
+			
+				<div id="about"  class="container-fluid"  >
 						<h1>Full-Stack & Front-End Web Developer</h1>	
-					</div>
+				</div>
 					<div class="container about-me">
 						<div class="row">
 							<div class="col-lg-2 col-md-2"></div>
 							<div class="col-lg-8 col-md-8 col-sm-12">
-									<h3>Hi! My name is Nida Chaiya.</h3>
+									<h3>Hi! My name is Chanida Chaiya.</h3>
 									<p>
-										I started web development path by taking an introductory HTML and CSS class at Montgomery College.
+										I am a passionate Web Developer based in the D.C. Metro area. I started web development path by taking an introductory HTML and CSS class at Montgomery College.
 										It got me hooked on coding and made me want to build complete and functional websites.
 										
 									</p>
@@ -64,7 +61,7 @@
 						<div class="row skills">
 								
 								<div class="col-lg-4 col-md-4 col-sm-12 skill-section alert-info">
-									<h5>Languages & Frameworks</h5>
+									<h5>Web Languages & Frameworks</h5>
 									<i class="fas fa-file-code"></i>
 									<hr>
 									<ul>
@@ -110,7 +107,7 @@
 					
 					</div>
 					
-					<div class="container-fluid portfolio-section " >
+					<div id="work" class="container-fluid portfolio-section " >
 						<h1>My Work</h1>
 						
 				</div>
@@ -201,38 +198,40 @@
 						 </div>
 					 </div>
 					</div>
-				</div>
+				<!-- </div> -->
 				<!-- modal -->
-				<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3-label" aria-hidden="true">
-						<div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="project3-label">Squad Diary</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-								</div>
-								<div class="modal-body">
-									<img src="./images/squaddiary.png" alt="squad diary" class="modal-content">
-									<a href="http://squalid-brass.surge.sh/" target="_blank">Website</a> 
-									<a href="https://github.com/butterfly13/Project3-FrontEnd" target="_blank"><i class="fab fa-github"></i>GitHub</a>
-									<a href="https://github.com/butterfly13/Project3-Backend" target="_blank"><i class="fab fa-github"></i>GitHub</a>
-									<p><strong>Built by using: </strong>Node, Express,MongoDB, React, Bootstrap, css </p>
-									<p>This application is created for GA students to share their experiences while going
-										 through the course. This can benefit properstive students so that they can foresee
-										  the emotional changes in each step.</p>
-									<p>This is group project. My role was to setup models in database, controllers, and routes
-										 in the backend. For the frontend part, I created a form for user to enter new entries. I also added Bootstrap to the project.</p>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3-label" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="project3-label">Squad Diary</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<img src="./images/squaddiary.png" alt="squad diary" class="modal-content">
+										<a href="http://squalid-brass.surge.sh/" target="_blank">Website</a> 
+										<a href="https://github.com/butterfly13/Project3-FrontEnd" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+										<a href="https://github.com/butterfly13/Project3-Backend" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+										<p><strong>Built by using: </strong>Node, Express,MongoDB, React, Bootstrap, css </p>
+										<p>This application is created for GA students to share their experiences while going
+											through the course. This can benefit properstive students so that they can foresee
+											the emotional changes in each step.</p>
+										<p>This is group project. My role was to setup models in database, controllers, and routes
+											in the backend. For the frontend part, I created a form for user to enter new entries. I also added Bootstrap to the project.</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				<!-- end modal -->
+				<!-- end portfolio -->
 					
-						<div class="container-fluid ">
+						<div id="contact" class="container-fluid ">
 							<h1>Contact Me</h1>
 							
 						</div>
@@ -312,17 +311,18 @@
 								})();
 								</script>
 					</div> 	<!-- end form -->
+		
 
 			<footer class="bg-secondary" >
 				<div class="container text-light">
-							<a href="./documents/Chanida_Nida_Chaiya_Resume.pdf" target="_blank" class="resume-icon">CV</a>
+							<a href="./documents/Chanida_Chaiya_Resume1.pdf" target="_blank" class="resume-icon">Resume</a>
 							<a href="https://github.com/butterfly13" target="_blank"><i class="fab fa-github"></i></a>
-							<a href="https://www.linkedin.com/in/noon-chaiya-166533b9" target="_blank" ><i class="fab fa-linkedin-in"></i></a>
+							<a href="https://www.linkedin.com/in/chanida-chaiya/" target="_blank" ><i class="fab fa-linkedin-in"></i></a>
 							<!-- <a href="./documents/Noon_Chaiya_Resume.pdf" target="_blank"><i class="fas fa-file"></i></a> -->
 							
 						
 			
-						<p>Copyright &#9400; 2018 Nida Chaiya</p>
+						<p>Copyright &#9400; 2018 Chanida Chaiya</p>
 				</div>
 			
 			</footer>
@@ -342,6 +342,8 @@
 				$(".navbar-collapse").collapse('hide');
 			});
 		});
+
+		
 	</script>
   </body>
 </html>
